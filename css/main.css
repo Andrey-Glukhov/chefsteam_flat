@@ -121,8 +121,33 @@ html {
   grid-template-columns: 1fr; }
 
 .opener {
-  background-color: #2ecc71;
-  height: 200px; }
+  background-color: #f48914;
+  background-image: url(../img/backgroun-06-min.png);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);}
+
+.header_up {
+  grid-column: 2/11;
+  grid-row: 2/4;
+  font-family: "KyivType-Titling", serif;
+  color: #fedd43;
+  text-transform: uppercase;
+  font-size: 12rem;
+  line-height: 12rem;
+ }
+.header_low { }
+.subheader { }
+.button_wrapper { }
+.button_part { }
+.button_programm { }
+.date_wrapper { }
+
+
 
 .slider {
   background-color: #f4e851; }
@@ -222,7 +247,9 @@ html {
 
 .ticket_body {
   background-color: #fff;
-  position: relative; }
+  position: relative; 
+  min-height: 50vh;
+  padding: 10px;}
 
 .ticket_body i.circle_lt,
 .ticket_body i.circle_rt,
@@ -257,6 +284,9 @@ html {
 .ticket_list ul {
   list-style-type: "-"; }
 
+.ticket_list ul li {
+    padding: 5px; }
+  
 img.half-width {
   width: 100%;
   height: auto; }
@@ -268,7 +298,6 @@ img.half-width {
   background-color: #cc2eaa;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[12];
   grid-template-columns: repeat(12, 1fr);
   min-height: 80vh;
   height: auto; }
@@ -313,9 +342,9 @@ img.half-width {
   min-height: 80vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[12];
+  -ms-grid-columns: (1fr);
   grid-template-columns: repeat(12, 1fr);
-  -ms-grid-rows: (1fr)[9];
+  -ms-grid-rows: (1fr);
   grid-template-rows: repeat(9, 1fr); }
 
 .contact_column {
