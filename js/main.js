@@ -10,7 +10,17 @@
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-        arrows: false
+        arrows: false,
+        //adaptiveHeight: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          }
+        ]
       });
     
       //<< Scroll animations
@@ -19,7 +29,7 @@
         duration: '100%',
         triggerHook: 0.8
     })
-    .addIndicators()
+    //.addIndicators()
     .setTween(gsap.to('.side_pic.pic_left_2',{y: '-20vh'}))
     .addTo(controller);
       
@@ -36,7 +46,7 @@
       duration: '100%',
       triggerHook: 0.8
     })
-    .addIndicators()
+    //.addIndicators()
     .setTween(gsap.to('.side_pic.pic_right_1',{top: '-37vh'}))
     .addTo(controller);
 

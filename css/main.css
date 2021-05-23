@@ -240,7 +240,8 @@ html {
   height: fit-content;
 }
 .button_programm,
-.button_part{
+.button_part, 
+.button_download {
 border: none;
 border-radius: 20px;
 padding: 10px 17px;
@@ -335,7 +336,7 @@ cursor: pointer;
 
 .slider {
   min-height: 80vh;
-  height: 80vh;
+  /* height: 80vh; */
   overflow: hidden;
 }
 
@@ -349,15 +350,65 @@ cursor: pointer;
 
 .multiple-items div.slide_block {
   /* width:  150px; */
-  height: 25vw;
-  background-image: url(../img/slides-02.png);
+  min-height: 46vw;
+  background-image: url(../img/slides-0-2-1.png);
   background-size: cover;
   font-family: "KyivType-Serif", serif;
   color: #fedd43;
   font-size: 1.5rem;
   font-weight: bold;
-  padding: 30% 5% 5%;
+  padding: 30%;
   text-align: center;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(8, 1fr );
+}
+.result_list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  grid-row: 3/5;
+  grid-column: 4/13;
+}
+.result_list li{
+  background: url('../img/cherry.png') no-repeat left top;
+  background-size: contain;
+  height: 34px;
+  padding-top: 7px;
+  padding-left: 44px;
+ }
+
+.result_header {
+  text-align: center;
+  font-family: "KyivType-Serif", serif;
+  color: #fedd43;
+  font-size: 1.5rem;
+  font-weight: bold;
+  grid-row: 2/3;
+  grid-column: 4/13;
+}
+
+.result_subheader {
+  text-align: center;
+  font-family: "KyivType-Serif", serif;
+  color: #fedd43;
+  font-size: 1.5rem;
+  font-weight: bold;
+  grid-row: 5/7;
+  grid-column: 2/10;
+}
+
+.result_pic_left {
+  background-image: url(../img/cherry_bowl.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  grid-row: 1/3;
+  grid-column: 1/4;
+  z-index: 5;
 }
 
 .offer {
@@ -487,7 +538,11 @@ img.half-width {
 }
 
 .question {
-  background-color: #cc2eaa;
+  background-color: #f48914;
+  background-image: url(../img/sand_back-05.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -510,7 +565,7 @@ img.half-width {
 .question_pic_sunshade {
   background-image: url(../img/contact_form-13-min.png);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   grid-row: 1/3;
   grid-column: 1/13;
@@ -547,7 +602,7 @@ img.half-width {
   border: none;
   border-radius: 18px;
   padding: 0 20px;
-  color: #f4e851;
+  color: #fedd43;
   line-height: 2.5rem;
 }
 .question_header {
