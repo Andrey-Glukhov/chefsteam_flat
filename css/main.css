@@ -361,6 +361,12 @@ cursor: pointer;
   text-align: center;
 }
 
+.table_pic_center {
+  background-image: url(../img/t.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
 .result {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
