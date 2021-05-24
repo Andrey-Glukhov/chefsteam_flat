@@ -62,6 +62,17 @@
       collapsible: true,
       heightStyle: 'content',
       header: '> .accordion-item > .accordion-header'
-    })
+    });
+    // $(window).on('load', function() {
+    //   $('.preloader').fadeOut().end().delay(400).fadeOut('slow');
+    // });
+
+    $(window).on('load', function () {
+      $('body').addClass('loaded_hiding');
+      window.setTimeout(function () {
+        $('body').addClass('loaded');
+        $('body').removeClass('loaded_hiding');
+      }, 500);
+    });
     //>>
     }(jQuery) );
