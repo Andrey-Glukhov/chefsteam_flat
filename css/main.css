@@ -461,25 +461,28 @@ cursor: pointer;
   grid-row: 1/4;
 }
 
-.card_first.ticket_card {
+.img_first{
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
   z-index: 3;
+  grid-row: 1/3;
 }
 
-.card_second.ticket_card {
+.img_first{
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
   z-index: 3;
+  grid-row: 1/3;
 }
 
-.card_third.ticket_card {
+.img_first{
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3/4;
   z-index: 3;
+  grid-row: 1/3;
 }
 
 .ticket_body {
