@@ -1,0 +1,48 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" id="svg1837" version="1.1" viewBox="0 0 207.043 90.462">
+  <defs/>
+  <defs id="defs1831">
+    <radialGradient id="radialGradient2488" cx="47.623" cy="41.828" r="1.88" fx="47.623" fy="41.828" gradientTransform="matrix(1 0 0 1.04072 0 -1.703)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2631" cx="73.616" cy="48.601" r="1.88" fx="73.616" fy="48.601" gradientTransform="matrix(1 0 0 1.04072 .096 -2.316)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2645" cx="104.349" cy="50.167" r="1.88" fx="104.349" fy="50.167" gradientTransform="matrix(1 0 0 1.04072 0 -2.428)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2664" cx="129.433" cy="45.776" r="1.88" fx="129.433" fy="45.776" gradientTransform="matrix(1 0 0 1.04072 -.048 -2.201)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2677" cx="152.145" cy="38.457" r="1.88" fx="152.145" fy="38.457" gradientTransform="matrix(1 0 0 1.04072 .096 -1.903)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2685" cx="169.953" cy="25.799" r="1.88" fx="169.953" fy="25.799" gradientTransform="matrix(1 0 0 1.04072 .193 -1.34)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2693" cx="163.841" cy="49.52" r="1.88" fx="163.841" fy="49.52" gradientTransform="matrix(1 0 0 1.04072 .144 -2.354)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2701" cx="143.387" cy="64.291" r="1.88" fx="143.387" fy="64.291" gradientTransform="matrix(1 0 0 1.04072 0 -2.618)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2717" cx="116.023" cy="73.82" r="1.88" fx="116.023" fy="73.82" gradientTransform="matrix(1 0 0 1.04072 -.193 -3.247)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2725" cx="45.164" cy="63.916" r="1.88" fx="45.164" fy="63.916" gradientTransform="matrix(1 0 0 1.04072 0 -2.844)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2733" cx="48.499" cy="71.234" r="1.88" fx="48.499" fy="71.234" gradientTransform="matrix(1 0 0 1.04072 0 -2.9)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2741" cx="63.066" cy="76.135" r="2.322" fx="63.066" fy="76.135" gradientTransform="matrix(1 0 0 1.03297 -.096 -2.751)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2749" cx="83.963" cy="76.135" r="1.88" fx="83.963" fy="76.135" gradientTransform="matrix(1 0 0 1.04072 -.096 -3.39)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2757" cx="85.766" cy="83.418" r="1.88" fx="85.766" fy="83.418" gradientTransform="matrix(1 0 0 1.04072 .048 -3.83)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2765" cx="110.918" cy="87.775" r="1.88" fx="110.918" fy="87.775" gradientTransform="matrix(1 0 0 1.04072 .048 -3.911)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2773" cx="141.481" cy="86.311" r="2.322" fx="141.481" fy="86.311" gradientTransform="matrix(1 0 0 1.03297 .144 -3.135)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2781" cx="167.653" cy="79.981" r="1.88" fx="167.653" fy="79.981" gradientTransform="matrix(1 0 0 1.04072 -.048 -3.45)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2486"/>
+    <linearGradient id="linearGradient2486">
+      <stop id="stop2482" offset="0" stop-color="#fedd43" stop-opacity="1"/>
+      <stop id="stop2484" offset="1" stop-color="#fedd43" stop-opacity=".141"/>
+    </linearGradient>
+  </defs>
+  <g id="layer3" fill-opacity="1" stroke="none" stroke-dasharray="none" stroke-miterlimit="4" stroke-opacity="1" stroke-width=".884" display="inline">
+    <ellipse id="path2480" cx="47.623" cy="41.828" fill="url(#radialGradient2488)" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0" cx="45.164" cy="63.676" fill="url(#radialGradient2725)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-3" cx="48.499" cy="71.234" fill="url(#radialGradient2733)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-0" cx="62.969" cy="75.894" fill="url(#radialGradient2741)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-6" cx="83.866" cy="75.846" fill="url(#radialGradient2749)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-7" cx="85.815" cy="82.985" fill="url(#radialGradient2757)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-1" cx="110.966" cy="87.438" fill="url(#radialGradient2765)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-5" cx="115.83" cy="73.58" fill="url(#radialGradient2717)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-8" cx="141.625" cy="86.022" fill="url(#radialGradient2773)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-13" cx="167.605" cy="79.788" fill="url(#radialGradient2781)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-71" cx="163.986" cy="49.183" fill="url(#radialGradient2693)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-31" cx="143.387" cy="64.291" fill="url(#radialGradient2701)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-9" cx="129.384" cy="45.439" fill="url(#radialGradient2664)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-69" cx="104.349" cy="49.782" fill="url(#radialGradient2645)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-84" cx="73.713" cy="48.264" fill="url(#radialGradient2631)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-33" cx="152.241" cy="38.12" fill="url(#radialGradient2677)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+    <ellipse id="path2480-0-90" cx="170.146" cy="25.51" fill="url(#radialGradient2685)" display="inline" opacity=".994" rx="1.88" ry="1.957"/>
+  </g>
+  <g id="layer1" display="inline" transform="translate(-.186 -.504)">
+    <image id="image2410" width="207.043" height="90.462" x=".186" y=".504" preserveAspectRatio="none" xlink:href="Pngs/Compressed/garland_2.png"/>
+  </g>
+</svg>

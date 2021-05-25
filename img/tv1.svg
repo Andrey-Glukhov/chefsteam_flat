@@ -1,0 +1,15 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" id="svg8" version="1.1" viewBox="0 0 210.004 135.368">
+  <defs/>
+  <g id="layer1" display="inline" transform="translate(-1.587 .378)">
+    <image id="image843" width="210.004" height="135.368" x="1.587" y="-.378" preserveAspectRatio="none" xlink:href="./img/tvset.png"/>
+  </g>
+  <g id="layer3">
+    <path id="rect876" fill="#4343fe" fill-opacity=".141" stroke="#000" stroke-dasharray="none" stroke-linejoin="round" stroke-miterlimit="4" stroke-opacity="1" stroke-width=".879" d="M21.167 34.018H149.49v73.138H21.167z" opacity=".994"/>
+  <foreignObject x="-151" y="-104" width="500" height="400">
+                <video width="200" height="100" controls="" style="position: fixed; left: 151px; top: 104px;">
+                    <source src="./img/introduction.mp4" type="video/mp4">
+                </video>
+            </foreignObject>
+  </g>
+  <path id="rect850" fill="#4343fe" fill-opacity=".141" stroke-width=".884" d="M32.695 45.546h1.701v1.323h-1.701z" opacity=".994"/>
+</svg>
