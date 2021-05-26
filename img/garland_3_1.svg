@@ -1,0 +1,52 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" id="svg1837" version="1.1" viewBox="0 0 207.043 90.462">
+  <defs/>
+  <style id="style2">
+    @keyframes change_fill{0%,75%{fill:url(#radialGradient2488)}25%{fill:url(#radialGradient2631)}50%{fill:url(#radialGradient2645)}to{fill:url(#radialGradient2664)}}@keyframes increase_radius{0%,to{r:1.4}50%{r:2}}.lamp{animation:change_fill 8s infinite,increase_radius 2s infinite;fill:url(#radialGradient2488)}.lamp:nth-child(2n){animation-delay:1000ms}.lamp:nth-child(2n+1){animation-delay:2000ms}.lamp:nth-child(3n){animation-delay:3000ms}
+  </style>
+ 
+  <defs id="defs1831">
+    <radialGradient id="radialGradient2488" r=".5" xlink:href="#linearGradient2486"/>
+    <radialGradient id="radialGradient2631" r=".5" xlink:href="#linearGradient873"/>
+    <radialGradient id="radialGradient2645" r=".5" xlink:href="#linearGradient879"/>
+    <radialGradient id="radialGradient2664" r=".5" xlink:href="#linearGradient885"/>
+    <linearGradient id="linearGradient885">
+      <stop id="stop881" offset="0" stop-color="#4343fe" stop-opacity="1"/>
+      <stop id="stop883" offset="1" stop-color="#4343fe" stop-opacity=".141"/>
+    </linearGradient>
+    <linearGradient id="linearGradient879">
+      <stop id="stop875" offset="0" stop-color="#fe5543" stop-opacity="1"/>
+      <stop id="stop877" offset="1" stop-color="#fe5543" stop-opacity=".141"/>
+    </linearGradient>
+    <linearGradient id="linearGradient873">
+      <stop id="stop869" offset="0" stop-color="#43fe5a" stop-opacity="1"/>
+      <stop id="stop871" offset="1" stop-color="#43fe48" stop-opacity=".141"/>
+    </linearGradient>
+    <linearGradient id="linearGradient2486">
+      <stop id="stop2482" offset="0" stop-color="#fedd43" stop-opacity="1"/>
+      <stop id="stop2484" offset="1" stop-color="#fedd43" stop-opacity=".141"/>
+    </linearGradient>
+  </defs>
+  <g id="layer1" display="inline" transform="translate(-.186 -.504)">
+    <image id="image2410" width="207.043" height="90.462" x=".186" y=".504" preserveAspectRatio="none" xlink:href="img/garland_3.png"/>
+  </g>
+  <g id="layer2" display="inline">
+    <g id="layer3" fill-opacity="1" stroke="none" stroke-dasharray="none" stroke-miterlimit="4" stroke-opacity="1" stroke-width=".884" display="inline" transform="translate(.26 -19.496)">
+      <circle id="path2480" cx="47.282" cy="38.931" r="1.88" class="lamp" opacity=".994"/>
+      <circle id="path2480-0" cx="45.067" cy="69.722" r="2" class="lamp" display="inline" opacity=".994"/>
+      <circle id="path2480-0-3" cx="48.573" cy="80.677" r="2" class="lamp" display="inline" opacity=".994"/>
+      <circle id="path2480-0-0" cx="62.628" cy="87.737" r="2" class="lamp" display="inline" opacity=".994"/>
+      <circle id="path2480-0-6" cx="83.793" cy="87.082" r="2" class="lamp" display="inline" opacity=".994"/>
+      <circle id="path2480-0-7" cx="85.389" cy="98.151" r="2" class="lamp" display="inline" opacity=".994"/>
+      <circle id="path2480-0-1" cx="110.625" cy="104.649" r="2" class="lamp" display="inline" opacity=".994"/>
+      <circle id="path2480-0-5" cx="115.739" cy="84.168" r="2" class="lamp" display="inline" opacity=".994"/>
+      <circle id="path2480-0-8" cx="141.54" cy="102.296" r="2" class="lamp" display="inline" opacity=".994"/>
+      <circle id="path2480-0-13" cx="167.435" cy="93.08" r="2" class="lamp" display="inline" opacity=".994"/>
+      <circle id="path2480-0-71" cx="163.73" cy="48.877" r="2" class="lamp" display="inline" opacity=".994"/>
+      <circle id="path2480-0-31" cx="143.215" cy="70.216" r="2" class="lamp" display="inline" opacity=".994"/>
+      <circle id="path2480-0-9" cx="129.043" cy="43.52" r="2" class="lamp" display="inline" opacity=".994"/>
+      <circle id="path2480-0-69" cx="104.349" cy="49.782" r="2" class="lamp" display="inline" opacity=".994"/>
+      <circle id="path2480-0-84" cx="73.543" cy="47.497" r="2" class="lamp" display="inline" opacity=".994"/>
+      <circle id="path2480-0-33" cx="152.003" cy="33.077" r="2" class="lamp" display="inline" opacity=".994"/>
+    </g>
+  </g>
+</svg>

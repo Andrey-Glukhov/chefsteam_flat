@@ -364,20 +364,7 @@ cursor: pointer;
   background-position: top center;
 }
 
-.table {
-  background-color: #1d2c77;
-  min-height: 80vh;
-  background-image: url(../img/table_back-02-min.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-.table_pic_center {
-  background-image: url(../img/table.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
+
 
 /* .lamp {
   animation: change_fill 1s;
@@ -426,7 +413,8 @@ cursor: pointer;
   /* width:  150px; */
   min-height: 46vw;
   background-image: url(../img/carusel_page-03.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   font-family: "KyivType-Serif", serif;
   color: #f48914;
   font-size: 1.5rem;
@@ -438,6 +426,51 @@ cursor: pointer;
   padding: 48% 30px;
 }
 
+
+.table {
+  background-color: #1d2c77;
+  min-height: 80vh;
+  background-image: url(../img/table_back-02-min.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.table_pic_garland {
+  grid-column: 1/13;
+  grid-row: 1/3;
+}
+.table_header {
+  grid-column: 2/11;
+  grid-row: 2/3;
+}
+.table_header h2 {
+  font-family: "KyivType-Serif", serif;
+  color: #fedd43;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+}
+/* .table_subheader {
+  grid-column: 4/12;
+  grid-row: 4/5;
+} */
+.table_subheader p {
+  font-family: "KyivType-Serif", serif;
+  color: #fedd43;
+  font-size: 1.5rem;
+  text-align-last: left;
+  }
+.table_pic_center {
+  background-image: url(../img/table.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  grid-column: 4/13;
+  grid-row: 3/4;
+}
 .result {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
