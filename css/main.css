@@ -493,8 +493,8 @@ cursor: pointer;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 1fr );
   min-height: 80vh;
   background-color: #f48914;
 }
@@ -508,7 +508,7 @@ cursor: pointer;
   grid-column: 1/4;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
-  grid-row: 1/2;
+  grid-row: 1/3;
   z-index: 2;
 }
 
@@ -529,33 +529,57 @@ cursor: pointer;
   padding: 20px;
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
-  grid-row: 1/4;
+  grid-row: 3/6;
 }
 
 .img_first{
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
   grid-column: 1/2;
   z-index: 3;
   grid-row: 1/3;
 }
-
-.img_first{
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
+.card_first{
+  grid-column: 1/2;
+}
+.ice_back_first{
+  background-image: url(../img/ice_weel-04-min.png);
+  grid-row: 3/8;
+  grid-column: 1/2;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% auto;
+}
+.img_second{
   grid-column: 2/3;
   z-index: 3;
   grid-row: 1/3;
 }
-
-.img_first{
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
+.card_second{
+  grid-column: 2/3;
+}
+.ice_back_second{
+  background-image: url(../img/ice_weel-04-min.png);
+  grid-row: 3/8;
+  grid-column: 2/3;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% auto;
+}
+.img_third{
   grid-column: 3/4;
   z-index: 3;
   grid-row: 1/3;
 }
-
+.card_third{
+  grid-column: 3/4;
+}
+.ice_back_third{
+  background-image: url(../img/ice_weel-04-min.png);
+  grid-row: 3/8;
+  grid-column: 3/4;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% auto;
+}
 .ticket_body {
   background-color: #fff;
   position: relative;
