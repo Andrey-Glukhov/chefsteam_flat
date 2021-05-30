@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="table_g.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.47433592"
+     inkscape:cx="1114.1893"
+     inkscape:cy="730.49496"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2599">
+      <stop
+         style="stop-color:#55bab6;stop-opacity:0.00821355"
+         offset="0"
+         id="stop2595" />
+      <stop
+         style="stop-color:#55bab6;stop-opacity:1"
+         offset="1"
+         id="stop2597" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient852">
+      <stop
+         style="stop-color:#7186c7;stop-opacity:0.95893216"
+         offset="0"
+         id="stop848" />
+      <stop
+         style="stop-color:#08105e;stop-opacity:0.99178642"
+         offset="1"
+         id="stop850" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient852"
+       id="radialGradient856"
+       cx="1125.8494"
+       cy="673.25012"
+       fx="1125.8494"
+       fy="673.25012"
+       r="960"
+       gradientTransform="matrix(0.8222363,0.00117463,-8.4101457e-4,0.58870803,157.12814,165.44556)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Noise Fill"
+       id="filter1625"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feTurbulence
+         type="turbulence"
+         baseFrequency="1.18034 1.21312"
+         numOctaves="1"
+         seed="27"
+         result="turbulence"
+         id="feTurbulence1609" />
+      <feComposite
+         in="SourceGraphic"
+         in2="turbulence"
+         operator="in"
+         result="composite1"
+         id="feComposite1611" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 32.5745 -0.759878 "
+         result="color"
+         id="feColorMatrix1613" />
+      <feFlood
+         flood-opacity="0.866667"
+         flood-color="rgb(99,130,217)"
+         result="flood"
+         id="feFlood1615" />
+      <feMerge
+         result="merge"
+         id="feMerge1621">
+        <feMergeNode
+           in="flood"
+           id="feMergeNode1617" />
+        <feMergeNode
+           in="color"
+           id="feMergeNode1619" />
+      </feMerge>
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="composite2"
+         id="feComposite1623" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2599"
+       id="radialGradient2989"
+       cx="897.05658"
+       cy="750.83331"
+       fx="897.05658"
+       fy="750.83331"
+       r="960"
+       gradientTransform="matrix(0.65626579,0.52833205,-0.27149403,0.33723538,589.89667,-163.73737)"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:menu-tooltip="Adds a small scale crossy graininess"
+       inkscape:menu="Overlays"
+       inkscape:label="Cross Noise B"
+       id="filter863"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         result="result6"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 1 "
+         id="feColorMatrix849" />
+      <feTurbulence
+         result="result0"
+         seed="0"
+         baseFrequency="1"
+         numOctaves="5"
+         type="fractalNoise"
+         id="feTurbulence851" />
+      <feConvolveMatrix
+         result="result5"
+         order="5 5"
+         kernelMatrix="-2 0 0 0 -2 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -2 0 0 0 -2 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix853" />
+      <feColorMatrix
+         in="result5"
+         type="saturate"
+         values="0"
+         result="result4"
+         id="feColorMatrix855" />
+      <feComposite
+         in2="result6"
+         result="result2"
+         k3="0.5"
+         k2="0.5"
+         k1="1.5"
+         operator="arithmetic"
+         in="result4"
+         id="feComposite857" />
+      <feBlend
+         result="result7"
+         mode="normal"
+         in2="result4"
+         id="feBlend859" />
+      <feComposite
+         in2="SourceGraphic"
+         result="result3"
+         operator="in"
+         in="result7"
+         id="feComposite861" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#radialGradient856);fill-opacity:1;stroke-width:3.3222;stroke-linejoin:round;stroke-opacity:0.947154;filter:url(#filter863)"
+       id="rect846"
+       width="1920"
+       height="810"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:url(#radialGradient2989);fill-opacity:1;stroke-width:3.3222;stroke-linejoin:round;stroke-opacity:0.947154"
+       id="rect1669"
+       width="1920"
+       height="270"
+       x="0"
+       y="810" />
+  </g>
+</svg>

@@ -194,7 +194,6 @@ html {
 .opener {
   /* background-color: #f48914; */
   /* background-image: url(../img/backgroun-06-min.png); */
-   /* transform: translate3d(0,0,0);   */
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -306,7 +305,7 @@ cursor: pointer;
   grid-row: 1/4;
   background-color: #3e4777;
   /* background-image: url(../img/first_slide_back-06.png); */
-  background-image: url(../img/first_slidesvg.svg);
+  background-image: url(../img/first_slidesvg_g.svg);
   /* transform: translate3d(0,0,0);   */
   background-size: cover;
   background-repeat: no-repeat;
@@ -317,11 +316,12 @@ cursor: pointer;
   grid-row: 4/10;
   /* background-color: #fedd43; */
   /* background-image: url(../img/sand_back.png); */
-  background-image: url(../img/sand_3.svg);
+  background-image: url(../img/sand_3_g.svg);
   /* transform: translate3d(0,0,0);   */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
+  margin-bottom: -1px;
 }
 
 .button_part { }
@@ -386,7 +386,7 @@ cursor: pointer;
 .slider {
   /* background-color: #fedd43; */
   /* background-image: url(../img/sand_back-05.png); */
-  background-image: url(../img/sand.svg);
+  background-image: url(../img/sand_g.svg);
   transform: translate3d(0,0,0);  
   background-size: cover;
   background-repeat: no-repeat;
@@ -450,7 +450,7 @@ cursor: pointer;
   background-color: #1d2c77;
   min-height: 80vh;
   /* background-image: url(../img/table_back-02-min.png); */
-  background-image: url(../img/table.svg);
+  background-image: url(../img/table_g.svg);
   /* transform: translate3d(0,0,0);   */
   background-size: cover;
   background-repeat: no-repeat;
@@ -498,7 +498,7 @@ cursor: pointer;
 .tvset {
   background-color: #f48914;
   /* background-image: url(../img/yellow_back.jpg); */
-  background-image: url(../img/yellow.svg);
+  background-image: url(../img/yellow_g.svg);
   background-size: cover;
   transform: translate3d(0,0,0);  
   background-repeat: no-repeat;
@@ -523,7 +523,7 @@ cursor: pointer;
   grid-template-rows: repeat(3, 1fr );
   /* background-color: #1d2c77; */
   /* background-image: url(../img/result_back.jpg); */
-  background-image: url(../img/result.svg);
+  background-image: url(../img/result_g.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -740,7 +740,7 @@ img.half-width {
 
 .question {
   /* background-image: url(../img/sand_back-05.png); */
-  background-image: url(../img/sand.svg);
+  background-image: url(../img/sand_g.svg);
   /* transform: translate3d(0,0,0);   */
   background-color: #f48914;
   background-position: center;
@@ -833,7 +833,7 @@ img.half-width {
 .contact {
   /* background-color: #1d2c77; */
   /* background-image: url(../img/contact_form-02-min.png); */
-  background-image: url(../img/contact.svg);
+  background-image: url(../img/contact_g.svg);
   transform: translate3d(0,0,0);  
   background-size: cover;
   min-height: 80vh;
