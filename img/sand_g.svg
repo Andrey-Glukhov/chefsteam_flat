@@ -25,7 +25,7 @@
          offset="0"
          id="stop3743" />
       <stop
-         style="stop-color:#fbd6ae;stop-opacity:1"
+         style="stop-color:#fdd4a9;stop-opacity:1"
          offset="1"
          id="stop3745" />
     </linearGradient>
@@ -142,8 +142,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="996.42857"
-     inkscape:cy="556.42857"
+     inkscape:cx="955"
+     inkscape:cy="442.14286"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"

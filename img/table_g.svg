@@ -26,7 +26,7 @@
      showgrid="false"
      units="px"
      inkscape:zoom="0.47433592"
-     inkscape:cx="1114.1893"
+     inkscape:cx="916.01749"
      inkscape:cy="730.49496"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
@@ -183,6 +183,61 @@
          in="result7"
          id="feComposite861" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:menu-tooltip="Adds a small scale crossy graininess"
+       inkscape:menu="Overlays"
+       inkscape:label="Cross Noise B"
+       id="filter862"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         result="result6"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 1 "
+         id="feColorMatrix848" />
+      <feTurbulence
+         result="result0"
+         seed="0"
+         baseFrequency="1"
+         numOctaves="5"
+         type="fractalNoise"
+         id="feTurbulence850" />
+      <feConvolveMatrix
+         result="result5"
+         order="5 5"
+         kernelMatrix="-2 0 0 0 -2 0 -2 0 -2 0 0 0 -10 0 0 0 -2 0 -2 0 -2 0 0 0 -2 "
+         targetX="2"
+         targetY="2"
+         id="feConvolveMatrix852" />
+      <feColorMatrix
+         in="result5"
+         type="saturate"
+         values="0"
+         result="result4"
+         id="feColorMatrix854" />
+      <feComposite
+         in2="result6"
+         result="result2"
+         k3="0.5"
+         k2="0.5"
+         k1="1.5"
+         operator="arithmetic"
+         in="result4"
+         id="feComposite856" />
+      <feBlend
+         result="result7"
+         mode="normal"
+         in2="result4"
+         id="feBlend858" />
+      <feComposite
+         in2="SourceGraphic"
+         result="result3"
+         operator="in"
+         in="result7"
+         id="feComposite860" />
+    </filter>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -196,7 +251,7 @@
        x="0"
        y="0" />
     <rect
-       style="fill:url(#radialGradient2989);fill-opacity:1;stroke-width:3.3222;stroke-linejoin:round;stroke-opacity:0.947154"
+       style="fill:url(#radialGradient2989);fill-opacity:1;stroke-width:3.3222;stroke-linejoin:round;stroke-opacity:0.947154;filter:url(#filter862)"
        id="rect1669"
        width="1920"
        height="270"

@@ -237,7 +237,7 @@ html {
   grid-column: 6/13;
   grid-row: 1/5;
   background-image: url(../img/watermellon-03.png);
-  transform: translate3d(0,0,0);  
+  transform: translate3d(0, 0, 0);
   background-size: 114% auto;
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -246,7 +246,7 @@ html {
   grid-column: 11/12;
   grid-row: 1/5;
   background-image: url(../img/knife-03.png);
-  transform: translate3d(0,0,0);  
+  transform: translate3d(0, 0, 0);
   background-size: 75% auto;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -255,7 +255,7 @@ html {
   grid-column: 1/6;
   grid-row: 2/8;
   background-image: url(../img/hat-05.png);
-  transform: translate3d(0,0,0);  
+  transform: translate3d(0, 0, 0);
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -264,7 +264,7 @@ html {
   grid-column: 8/12;
   grid-row: 5/7;
   background-image: url(../img/glass-06.png);
-  transform: translate3d(0,0,0);  
+  transform: translate3d(0, 0, 0);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -273,7 +273,7 @@ html {
   grid-column: 3/8;
   grid-row: 5/10;
   background-image: url(../img/bowl-08.png);
-  transform: translate3d(0,0,0);  
+  transform: translate3d(0, 0, 0);
   background-size: 86% auto;
   background-repeat: no-repeat;
   background-position: center right;
@@ -306,7 +306,7 @@ cursor: pointer;
   background-color: #3e4777;
   /* background-image: url(../img/first_slide_back-06.png); */
   background-image: url(../img/first_slidesvg_g.svg);
-  /* transform: translate3d(0,0,0);   */
+  transform: translate3d(0, 0, 0);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -317,7 +317,7 @@ cursor: pointer;
   /* background-color: #fedd43; */
   /* background-image: url(../img/sand_back.png); */
   background-image: url(../img/sand_3_g.svg);
-  /* transform: translate3d(0,0,0);   */
+  transform: translate3d(0, 0, 0);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -386,8 +386,9 @@ cursor: pointer;
 .slider {
   /* background-color: #fedd43; */
   /* background-image: url(../img/sand_back-05.png); */
+  background-color: #f48914;
   background-image: url(../img/sand_g.svg);
-  transform: translate3d(0,0,0);  
+  transform: translate3d(0, 0, 0);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -431,7 +432,7 @@ cursor: pointer;
   /* width:  150px; */
   min-height: 46vw;
   background-image: url(../img/carusel_page-03.png);
-  transform: translate3d(0,0,0);  
+  transform: translate3d(0, 0, 0);
   background-size: contain;
   background-repeat: no-repeat;
   font-family: "KyivType-Serif", serif;
@@ -451,7 +452,7 @@ cursor: pointer;
   min-height: 80vh;
   /* background-image: url(../img/table_back-02-min.png); */
   background-image: url(../img/table_g.svg);
-  /* transform: translate3d(0,0,0);   */
+  transform: translate3d(0, 0, 0);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -486,7 +487,7 @@ cursor: pointer;
   }
 .table_pic_center {
   background-image: url(../img/table.png);
-  transform: translate3d(0,0,0);  
+  transform: translate3d(0, 0, 0);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
@@ -499,14 +500,15 @@ cursor: pointer;
   background-color: #f48914;
   /* background-image: url(../img/yellow_back.jpg); */
   background-image: url(../img/yellow_g.svg);
+  transform: translate3d(0, 0, 0);
   background-size: cover;
-  transform: translate3d(0,0,0);  
   background-repeat: no-repeat;
   background-position: top center;
  }
 
 .tvset_pic_lamp {
   background-image: url(../img/lamp2.png);
+  transform: translate3d(0, 0, 0);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
@@ -524,6 +526,7 @@ cursor: pointer;
   /* background-color: #1d2c77; */
   /* background-image: url(../img/result_back.jpg); */
   background-image: url(../img/result_g.svg);
+  transform: translate3d(0, 0, 0);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -536,7 +539,6 @@ cursor: pointer;
 }
 .result_list li{
   background: url('../img/cherry.png') no-repeat left top;
-  transform: translate3d(0,0,0);  
   background-size: contain;
   height: 34px;
   padding-top: 7px;
@@ -570,7 +572,7 @@ cursor: pointer;
 
 .result_pic_left {
   background-image: url(../img/cherry_bowl.png);
-  transform: translate3d(0,0,0);  
+  transform: translate3d(0, 0, 0);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
@@ -589,14 +591,19 @@ cursor: pointer;
   grid-template-rows: repeat(7, 1fr );
   min-height: 80vh;
   background-color: #f48914;
+  background-image: url(../img/sand_g.svg);
+  transform: translate3d(0, 0, 0);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .offer_pic_background {
-  background-color: #1d2c77;
+  background-color: #28bbb9;
   /* background-image: url(../img/contact_form-08.png); */
-  transform: translate3d(0,0,0);  
+  background-image: url(../img/iceback_g.svg);
+  transform: translate3d(0, 0, 0);
   background-size: 100% auto;
-  background-repeat: repeat-y;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1/4;
@@ -639,6 +646,7 @@ cursor: pointer;
 }
 .ice_back_first{
   background-image: url(../img/ice_weel-04-min.png);
+  transform: translate3d(0, 0, 0);
   grid-row: 4/8;
   grid-column: 1/2;
   background-repeat: no-repeat;
@@ -655,6 +663,7 @@ cursor: pointer;
 }
 .ice_back_second{
   background-image: url(../img/ice_weel-04-min.png);
+  transform: translate3d(0, 0, 0);
   grid-row: 4/8;
   grid-column: 2/3;
   background-repeat: no-repeat;
@@ -671,6 +680,7 @@ cursor: pointer;
 }
 .ice_back_third{
   background-image: url(../img/ice_weel-04-min.png);
+  transform: translate3d(0, 0, 0);
   grid-row: 4/8;
   grid-column: 3/4;
   background-repeat: no-repeat;
@@ -741,7 +751,7 @@ img.half-width {
 .question {
   /* background-image: url(../img/sand_back-05.png); */
   background-image: url(../img/sand_g.svg);
-  /* transform: translate3d(0,0,0);   */
+  transform: translate3d(0, 0, 0);
   background-color: #f48914;
   background-position: center;
   background-size: cover;
@@ -767,7 +777,7 @@ img.half-width {
 }
 .question_pic_sunshade {
   background-image: url(../img/contact_form-13-min.png);
-  transform: translate3d(0,0,0);  
+  transform: translate3d(0, 0, 0);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -802,7 +812,7 @@ img.half-width {
 .question_header {
   background-color: #0d195f;
   background-image: url(../img/button1-min.png);
-  transform: translate3d(0,0,0);  
+  transform: translate3d(0, 0, 0);
   background-position: center;
   border: none;
   border-radius: 18px;
@@ -824,10 +834,12 @@ img.half-width {
   width: 20px;
   height: 20px;
   background: url(../img/plus.svg) 50% 50% no-repeat;
+  transform: translate3d(0, 0, 0);
   background-size: contain;
 }
 #accordion .ui-accordion-header-active .ui-accordion-header-icon {
   background-image: url(../img/minus.svg);
+  transform: translate3d(0, 0, 0);
 }
 
 .contact {
