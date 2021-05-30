@@ -192,8 +192,9 @@ html {
 }
 
 .opener {
-  background-color: #f48914;
-  background-image: url(../img/backgroun-06-min.png);
+  /* background-color: #f48914; */
+  /* background-image: url(../img/backgroun-06-min.png); */
+   /* transform: translate3d(0,0,0);   */
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -237,6 +238,7 @@ html {
   grid-column: 6/13;
   grid-row: 1/5;
   background-image: url(../img/watermellon-03.png);
+  transform: translate3d(0,0,0);  
   background-size: 114% auto;
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -245,6 +247,7 @@ html {
   grid-column: 11/12;
   grid-row: 1/5;
   background-image: url(../img/knife-03.png);
+  transform: translate3d(0,0,0);  
   background-size: 75% auto;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -253,6 +256,7 @@ html {
   grid-column: 1/6;
   grid-row: 2/8;
   background-image: url(../img/hat-05.png);
+  transform: translate3d(0,0,0);  
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -261,6 +265,7 @@ html {
   grid-column: 8/12;
   grid-row: 5/7;
   background-image: url(../img/glass-06.png);
+  transform: translate3d(0,0,0);  
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -269,6 +274,7 @@ html {
   grid-column: 3/8;
   grid-row: 5/10;
   background-image: url(../img/bowl-08.png);
+  transform: translate3d(0,0,0);  
   background-size: 86% auto;
   background-repeat: no-repeat;
   background-position: center right;
@@ -298,7 +304,10 @@ cursor: pointer;
 .sky{
   grid-column: 1/13;
   grid-row: 1/4;
-  background-image: url(../img/first_slide_back-06.png);
+  background-color: #3e4777;
+  /* background-image: url(../img/first_slide_back-06.png); */
+  background-image: url(../img/first_slidesvg.svg);
+  /* transform: translate3d(0,0,0);   */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -306,7 +315,10 @@ cursor: pointer;
 .sand{
   grid-column: 1/13;
   grid-row: 4/10;
-  background-image: url(../img/sand_back.png);
+  /* background-color: #fedd43; */
+  /* background-image: url(../img/sand_back.png); */
+  background-image: url(../img/sand_3.svg);
+  /* transform: translate3d(0,0,0);   */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -359,7 +371,10 @@ cursor: pointer;
 }
 
 .slider {
-  background-image: url(../img/sand_back-05.png);
+  /* background-color: #fedd43; */
+  /* background-image: url(../img/sand_back-05.png); */
+  background-image: url(../img/sand.svg);
+  transform: translate3d(0,0,0);  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -411,6 +426,7 @@ cursor: pointer;
   /* width:  150px; */
   min-height: 46vw;
   background-image: url(../img/carusel_page-03.png);
+  transform: translate3d(0,0,0);  
   background-size: contain;
   background-repeat: no-repeat;
   font-family: "KyivType-Serif", serif;
@@ -428,7 +444,9 @@ cursor: pointer;
 .table {
   background-color: #1d2c77;
   min-height: 80vh;
-  background-image: url(../img/table_back-02-min.png);
+  /* background-image: url(../img/table_back-02-min.png); */
+  background-image: url(../img/table.svg);
+  /* transform: translate3d(0,0,0);   */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -463,6 +481,7 @@ cursor: pointer;
   }
 .table_pic_center {
   background-image: url(../img/table.png);
+  transform: translate3d(0,0,0);  
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
@@ -473,8 +492,10 @@ cursor: pointer;
 
 .tvset {
   background-color: #f48914;
-  background-image: url(../img/yellow_back.jpg);
+  /* background-image: url(../img/yellow_back.jpg); */
+  background-image: url(../img/yellow.svg);
   background-size: cover;
+  transform: translate3d(0,0,0);  
   background-repeat: no-repeat;
   background-position: top center;
  }
@@ -495,7 +516,9 @@ cursor: pointer;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr );
-  background-image: url(../img/result_back.jpg);
+  /* background-color: #1d2c77; */
+  /* background-image: url(../img/result_back.jpg); */
+  background-image: url(../img/result.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -508,6 +531,7 @@ cursor: pointer;
 }
 .result_list li{
   background: url('../img/cherry.png') no-repeat left top;
+  transform: translate3d(0,0,0);  
   background-size: contain;
   height: 34px;
   padding-top: 7px;
@@ -541,6 +565,7 @@ cursor: pointer;
 
 .result_pic_left {
   background-image: url(../img/cherry_bowl.png);
+  transform: translate3d(0,0,0);  
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
@@ -562,7 +587,9 @@ cursor: pointer;
 }
 
 .offer_pic_background {
-  background-image: url(../img/contact_form-08.png);
+  background-color: #1d2c77;
+  /* background-image: url(../img/contact_form-08.png); */
+  transform: translate3d(0,0,0);  
   background-size: 100% auto;
   background-repeat: repeat-y;
   -ms-grid-column: 1;
@@ -604,6 +631,7 @@ cursor: pointer;
 }
 .ice_back_first{
   background-image: url(../img/ice_weel-04-min.png);
+  transform: translate3d(0,0,0);  
   grid-row: 3/8;
   grid-column: 1/2;
   background-repeat: no-repeat;
@@ -620,6 +648,7 @@ cursor: pointer;
 }
 .ice_back_second{
   background-image: url(../img/ice_weel-04-min.png);
+  transform: translate3d(0,0,0);  
   grid-row: 3/8;
   grid-column: 2/3;
   background-repeat: no-repeat;
@@ -636,6 +665,7 @@ cursor: pointer;
 }
 .ice_back_third{
   background-image: url(../img/ice_weel-04-min.png);
+  transform: translate3d(0,0,0);  
   grid-row: 3/8;
   grid-column: 3/4;
   background-repeat: no-repeat;
@@ -704,8 +734,10 @@ img.half-width {
 }
 
 .question {
-  background-color: #f48914;
-  background-image: url(../img/sand_back-05.png);
+  /* background-color: #f48914; */
+  /* background-image: url(../img/sand_back-05.png); */
+  background-image: url(../img/sand.svg);
+  /* transform: translate3d(0,0,0);   */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -730,6 +762,7 @@ img.half-width {
 }
 .question_pic_sunshade {
   background-image: url(../img/contact_form-13-min.png);
+  transform: translate3d(0,0,0);  
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -764,6 +797,7 @@ img.half-width {
 .question_header {
   background-color: #0d195f;
   background-image: url(../img/button1-min.png);
+  transform: translate3d(0,0,0);  
   background-position: center;
   border: none;
   border-radius: 18px;
@@ -792,7 +826,10 @@ img.half-width {
 }
 
 .contact {
-  background-image: url(../img/contact_form-02-min.png);
+  /* background-color: #1d2c77; */
+  /* background-image: url(../img/contact_form-02-min.png); */
+  background-image: url(../img/contact.svg);
+  transform: translate3d(0,0,0);  
   background-size: cover;
   min-height: 80vh;
   display: -ms-grid;
@@ -843,6 +880,7 @@ img.half-width {
 .wpcf7-form input[type="submit"] {
   background-color: #f48914;
   background-image: url(../img/contact_form-09-min-150x52.png);
+  transform: translate3d(0,0,0);  
   background-position: center;
   color: #1d2c77;
   border: none;
@@ -867,6 +905,7 @@ img.half-width {
 
 .pic_left_1 {
   background-image: url(../img/leaf_left.png);
+  transform: translate3d(0,0,0);  
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1/4;
@@ -880,6 +919,7 @@ img.half-width {
 
 .pic_right_1 {
   background-image: url(../img/leaf_right.png);
+  transform: translate3d(0,0,0);  
   -ms-grid-column: 10;
   -ms-grid-column-span: 3;
   grid-column: 10/13;
@@ -893,6 +933,7 @@ img.half-width {
 
 .pic_left_2 {
   background-image: url(../img/leaf_left2.png);
+  transform: translate3d(0,0,0);  
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1/4;
@@ -906,6 +947,7 @@ img.half-width {
 
 .pic_right_2 {
   background-image: url(../img/contact_form-07-min.png);
+  transform: translate3d(0,0,0);  
   background-position: bottom right;
   -ms-grid-column: 8;
   -ms-grid-column-span: 5;
@@ -917,6 +959,7 @@ img.half-width {
 
 .pic_center {
   background-image: url(../img/contact_form-03-min.png);
+  transform: translate3d(0,0,0);  
   -webkit-transform: translate(-50%, -40%);
   -ms-transform: translate(-50%, -40%);
   transform: translate(-50%, -40%);
