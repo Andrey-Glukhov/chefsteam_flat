@@ -371,6 +371,32 @@ cursor: pointer;
    }
 }
 
+@media only screen and (max-width: 1000px) {
+  .header_up,
+  .header_low {
+    font-size: 8rem;
+    line-height: 8rem;
+   }
+   .subheader,
+   .slider_wrapper h2{
+    font-size: 2rem;
+    line-height: 2.8rem;
+   }
+}
+
+@media only screen and (max-width: 900px) {
+  .header_up,
+  .header_low {
+    font-size: 8rem;
+    line-height: 8rem;
+   }
+   .subheader,
+   .slider_wrapper h2{
+    font-size: 2rem;
+    line-height: 2.8rem;
+   }
+}
+
 .slider {
   background-image: url(../img/sand_back-05.jpg);
   background-size: cover;
@@ -563,20 +589,6 @@ cursor: pointer;
   -ms-grid-rows: repeat(8, 1fr);
   grid-template-rows: repeat(7, 1fr );
   min-height: 80vh;
-  background-color: #f48914;
-}
-
-.offer_pic_background {
-  background-image: url(../img/contact_form-08.png);
-  background-size: 100% auto;
-  background-repeat: repeat-y;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-column: 1/4;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  grid-row: 1/3;
-  z-index: 2;
 }
 
 .offer_pic_bottom {
@@ -599,13 +611,26 @@ cursor: pointer;
   grid-row: 4/6;
 }
 .offer_pic_background{
-
+  background-image: url(../img/format_roof-11.png);
+  grid-row: 1/2;
+  grid-column: 1/4;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% auto;
 }
-
+.ice_background{
+  background-image: url(../img/contact_form-08.png);
+  grid-row: 1/4;
+  grid-column: 1/4;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
 .img_first{
   grid-column: 1/2;
   z-index: 3;
   grid-row: 2/4;
+  margin-top: auto;
 }
 .card_first{
   grid-column: 1/2;
@@ -622,6 +647,7 @@ cursor: pointer;
   grid-column: 2/3;
   z-index: 3;
   grid-row: 2/4;
+  margin-top: auto;
 }
 .card_second{
   grid-column: 2/3;
@@ -638,6 +664,7 @@ cursor: pointer;
   grid-column: 3/4;
   z-index: 3;
   grid-row: 2/4;
+  margin-top: auto;
 }
 .card_third{
   grid-column: 3/4;
@@ -656,6 +683,77 @@ cursor: pointer;
   min-height: 50vh;
   padding: 10px;
 }
+
+
+@media only screen and (max-width: 950px) {
+  .img_first,
+  .img_second,
+  .img_third{
+    grid-row: 2/3;
+  }
+  .ice_background{
+    grid-row: 1/3;
+  }
+  .ice_back_first,
+  .ice_back_second,
+  .ice_back_third {
+    grid-row: 3/6;
+    background-size: cover;
+}
+.ticket_card {
+  grid-row: 3/5;
+}
+}
+
+@media only screen and (max-width: 750px) {
+  .img_first,
+  .img_second,
+  .img_third{
+    grid-column: 3/7;
+  }
+  .img_first{
+    grid-row: 2/3;
+  }
+  .ice_back_first,
+  .card_first{
+    grid-row: 3/6;
+  }
+  .img_second{
+    grid-row: 6/7;
+  }
+  .ice_back_second,
+  .card_second{
+    grid-row: 7/10;
+  }
+  .img_third{
+    grid-row: 10/11;
+  }
+  .ice_back_third,
+  .card_third{
+    grid-row: 11/14;
+  }
+  .ice_back_first,
+  .ice_back_second,
+  .ice_back_third {
+    grid-column: 2/8;
+}
+.ice_background{
+  grid-column: 1/9;
+}
+.card_first,
+.card_second,
+.card_third{
+  grid-column: 2/8;
+}
+.offer_pic_background {
+  grid-column: 1/9;
+}
+.offer {
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(13, 1fr );
+}
+}
+
 
 .ticket_body i.circle_lt,
 .ticket_body i.circle_rt,
