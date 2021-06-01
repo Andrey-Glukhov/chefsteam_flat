@@ -327,8 +327,8 @@ cursor: pointer;
   text-align: end;
   font-family: "KyivType-Titling", serif;
   color: #1d2c77;
-  font-size: 3rem;
-  line-height: 4.3rem;
+  font-size: 5rem;
+  line-height: 5rem;
 }
 .date_wrapper h2{
   margin: 0 20px !important;
@@ -350,6 +350,10 @@ cursor: pointer;
     font-size: 2.9rem;
     line-height: 3.8rem;
    }
+   .date_wrapper{
+    font-size: 4.4rem;
+    line-height: 5rem;
+   }
 }
 
 @media only screen and (max-width: 1660px) {
@@ -363,6 +367,10 @@ cursor: pointer;
     font-size: 10rem;
     line-height: 10rem;
    }
+   .date_wrapper{
+    font-size: 3.9rem;
+    line-height: 4rem;
+   }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -373,34 +381,93 @@ cursor: pointer;
    }
    .subheader,
    .slider_wrapper h2{
+    font-size: 2.1rem;
+    line-height: 2.8rem;
+   }
+   .date_wrapper{
+    font-size: 3.2rem;
+    line-height: 4rem;
+   }
+}
+@media only screen and (max-width: 1200px) {
+  .header_up,
+  .header_low {
+    font-size: 7.4rem;
+    line-height: 7.5rem;
+   }
+   .subheader,
+   .slider_wrapper h2{
     font-size: 2rem;
     line-height: 2.8rem;
+   }
+   .date_wrapper{
+    font-size: 2.6rem;
+    line-height: 3rem;
    }
 }
 
 @media only screen and (max-width: 1000px) {
   .header_up,
   .header_low {
-    font-size: 8rem;
-    line-height: 8rem;
+    font-size: 6.5rem;
+    line-height: 6.9rem;
    }
    .subheader,
    .slider_wrapper h2{
-    font-size: 2rem;
-    line-height: 2.8rem;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    padding-top: 10px;
+   }
+   .date_wrapper{
+    font-size: 2.2rem;
+    line-height: 2.5rem;
    }
 }
 
 @media only screen and (max-width: 900px) {
   .header_up,
   .header_low {
-    font-size: 8rem;
-    line-height: 8rem;
+    font-size: 6.7rem;
+    line-height: 7rem;
    }
+  .header_low {
+    grid-column: 1/6;
+   }
+
    .subheader,
    .slider_wrapper h2{
-    font-size: 2rem;
-    line-height: 2.8rem;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+   }
+   .subheader{
+    grid-column: 6/12;
+   }
+   .date_wrapper{
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+   }
+}
+@media only screen and (max-width: 800px) {
+  .header_up,
+  .header_low {
+    font-size: 5.8rem;
+    line-height: 7rem;
+   }
+  .header_low {
+    grid-column: 1/6;
+   }
+
+   .subheader,
+   .slider_wrapper h2{
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+   }
+   .subheader{
+    grid-column: 6/12;
+   }
+   .date_wrapper{
+    font-size: 2.2rem;
+    line-height: 2.5rem;
    }
 }
 
