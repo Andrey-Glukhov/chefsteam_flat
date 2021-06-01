@@ -793,6 +793,7 @@ html {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr);
+ 
 }
 .table_pic_garland {
   grid-column: 1/13;
@@ -805,8 +806,6 @@ html {
 .table_header h2 {
   font-family: "KyivType-Serif", serif;
   color: #fedd43;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
   font-weight: bold;
 }
 /* .table_subheader {
@@ -816,9 +815,9 @@ html {
 .table_subheader p {
   font-family: "KyivType-Serif", serif;
   color: #fedd43;
-  font-size: 1.5rem;
   text-align-last: left;
-}
+  font-size: 1.5rem;
+  }
 .table_pic_center {
   background-image: url(../img/table.png);
   background-size: contain;
@@ -826,8 +825,58 @@ html {
   background-position: top center;
   grid-column: 4/13;
   grid-row: 3/4;
-  /* transform: translateY(-5%); */
 }
+
+@media only screen and (max-width: 768px) {
+  .table {    
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .table_pic_garland {
+    grid-column: 1/13;
+    grid-row: 1/2;
+  }
+  .table_header {
+    grid-column: 2/11;
+    grid-row: 2/4;
+  }
+  .table_header h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .table_subheader p {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+  .table_pic_center {
+    grid-column: 4/13;
+    grid-row: 4/5;
+  }
+
+} 
+
+@media only screen and (max-width: 576px) {
+  .table_header h2 {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+  .table_subheader p {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .table_header h2 {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
+  .table_subheader p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
+ 
 
 .tvset {
   background-color: #f48914;
@@ -836,8 +885,14 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-rows: 1fr 10fr 1fr;
+ }
+.tvset_pic_tv {
+  grid-row: 2/3;
+  grid-column: 2/3;
 }
-
 .tvset_pic_lamp {
   background-image: url(../img/lamp2.png);
   background-size: contain;
@@ -895,6 +950,7 @@ html {
   font-family: "KyivType-Serif", serif;
   color: #fedd43;
   font-size: 1.7rem;
+  line-height: 1.7rem;
   font-weight: bold;
   grid-row: 3/4;
   grid-column: 3/10;
@@ -910,6 +966,56 @@ html {
   z-index: 5;
   transform: translateY(-10%, -10%);
 }
+
+
+
+@media only screen and (max-width: 768px) {
+  .result_header {
+    font-size: 2.6rem;
+    line-height: 2.6rem;
+  }
+  .result_subheader {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }  
+  .result_list li{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }  
+} 
+
+@media only screen and (max-width: 576px) {
+  .result_header {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+  }
+  .result_subheader {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }  
+  .result_list li{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }  
+}
+
+@media only screen and (max-width: 320px) {
+  .result_header {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+
+.result_subheader {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}  
+.result_list li{
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+}  
+}
+
+
 
 .offer {
   display: -ms-grid;
@@ -928,7 +1034,7 @@ html {
 }
 
 .offer_pic_background {
-  background-color: #28bbb9;
+  /* background-color: #28bbb9; */
   background-image: url(../img/contact_form-08.png);
   /* background-image: url(../img/iceback_g.svg); */
   background-size: 100% auto;
@@ -965,7 +1071,7 @@ html {
   grid-row: 1/2;
   grid-column: 1/4;
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: top center;
   background-size: 100% auto;
 }
 .ice_background {
@@ -1040,18 +1146,19 @@ html {
   .img_third {
     grid-row: 2/3;
   }
-  .ice_background {
-    grid-row: 1/3;
+  .ice_background{
+    grid-row: 1/11;
   }
   .ice_back_first,
   .ice_back_second,
   .ice_back_third {
     grid-row: 3/6;
     background-size: cover;
-  }
-  .ticket_card {
-    grid-row: 3/5;
-  }
+}
+.ticket_card {
+  grid-row: 3/5;
+  padding: 0;
+}
 }
 
 @media only screen and (max-width: 750px) {
@@ -1064,44 +1171,47 @@ html {
     grid-row: 2/3;
   }
   .ice_back_first,
-  .card_first {
-    grid-row: 3/6;
+  .card_first{
+    grid-row: 3/5;
   }
-  .img_second {
-    grid-row: 6/7;
+  .img_second{
+    grid-row: 5/6;
   }
   .ice_back_second,
-  .card_second {
-    grid-row: 7/10;
+  .card_second{
+    grid-row: 6/8;
   }
-  .img_third {
-    grid-row: 10/11;
+  .img_third{
+    grid-row: 8/9;
   }
   .ice_back_third,
-  .card_third {
-    grid-row: 11/14;
+  .card_third{
+    grid-row: 9/11;
   }
   .ice_back_first,
   .ice_back_second,
   .ice_back_third {
-    grid-column: 2/8;
-  }
-  .ice_background {
+    background-image: url(../img/ice_no_weel.jpg);
     grid-column: 1/9;
-  }
-  .card_first,
-  .card_second,
-  .card_third {
-    grid-column: 2/8;
-  }
-  .offer_pic_background {
-    grid-column: 1/9;
-  }
-  .offer {
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(13, 1fr);
-  }
 }
+.ice_background{
+  grid-column: 1/9;
+}
+.card_first,
+.card_second,
+.card_third{
+  grid-column: 2/8;
+}
+.offer_pic_background {
+  grid-column: 1/9;
+}
+.offer {
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(10, 1fr );
+}
+}
+
+ 
 
 .ticket_body i.circle_lt,
 .ticket_body i.circle_rt,
@@ -1258,6 +1368,7 @@ img.half-width {
   grid-template-columns: repeat(12, 1fr);
   -ms-grid-rows: (1fr);
   grid-template-rows: repeat(9, 1fr);
+  z-index: 3;
 }
 
 .contact_column {
@@ -1299,7 +1410,7 @@ img.half-width {
 
 .wpcf7-form input[type="submit"] {
   background-color: #f48914;
-  background-image: url(../img/contact_form-09-min-150x52.png);
+  /* background-image: url(../img/contact_form-09-min-150x52.png); */
   /* transform: translate3d(0,0,0);   */
   background-position: center;
   color: #1d2c77;
@@ -1325,7 +1436,6 @@ img.half-width {
 
 .pic_left_1 {
   background-image: url(../img/leaf_left.png);
-  /* transform: translate3d(0,0,0);   */
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1/4;
@@ -1339,21 +1449,19 @@ img.half-width {
 
 .pic_right_1 {
   background-image: url(../img/leaf_right.png);
-  /* transform: translate3d(0,0,0);   */
   -ms-grid-column: 10;
   -ms-grid-column-span: 3;
   grid-column: 10/13;
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   grid-row: 1/4;
-  -webkit-transform: translateX(55%);
-  -ms-transform: translateX(55%);
-  transform: translateX(55%);
+  -webkit-transform: translateX(68%);
+  -ms-transform: translateX(68%);
+  transform: translateX(68%);
 }
 
 .pic_left_2 {
   background-image: url(../img/leaf_left2.png);
-  /* transform: translate3d(0,0,0);   */
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1/4;
@@ -1367,7 +1475,6 @@ img.half-width {
 
 .pic_right_2 {
   background-image: url(../img/contact_form-07-min.png);
-  /* transform: translate3d(0,0,0);   */
   background-position: bottom right;
   -ms-grid-column: 8;
   -ms-grid-column-span: 5;
@@ -1376,12 +1483,62 @@ img.half-width {
   -ms-grid-row-span: 6;
   grid-row: 4/10;
 }
-
-.pic_center {
-  background-image: url(../img/contact_form-03-min.png);
-  /* transform: translate3d(0,0,0);   */
-  -webkit-transform: translate(-50%, -40%);
-  -ms-transform: translate(-50%, -40%);
-  transform: translate(-50%, -40%);
-  z-index: 0;
+.sun_wrapper {
+  position: relative;
+  width: 100%;
 }
+.pic_center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-image: url(../img/contact_form-03-min.png);
+  width: 30vw;
+  height: 30vw;
+}
+
+.location {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 992px) {
+  .wpcf7-form textarea,
+  .wpcf7-form input {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+ } 
+ @media only screen and (max-width: 768px) {
+  .contact_column {
+    grid-column: 4/10;
+  }
+  .wpcf7-form textarea,
+  .wpcf7-form input {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .wpcf7-form textarea,
+  .wpcf7-form input {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .contact_column {
+    grid-column: 3/11;
+  }
+} 
+@media only screen and (max-width: 320px) {
+  .wpcf7-form textarea,
+  .wpcf7-form input {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+  }
+  .contact_column {
+    grid-column: 3/11;
+  }
+}
+
+
