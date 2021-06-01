@@ -258,8 +258,8 @@
        height="75"
        x="59"
        y="35" />
-       <foreignObject  x="59" y="35" width="132" height="75">
-        <video autoplay loop muted width="132" height="75">
+       <foreignObject id="video_wrapper" x="59" y="35" width="132" height="75">
+        <video  loop muted width="132" height="75">
             <source src="./img/introduction.mp4" type="video/mp4">
         </video>
       </foreignObject>
@@ -476,6 +476,12 @@
         </div>
       </div>
     </div>
+
+    <div class="unit_container location">
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A89712ccd482d21d535de3494d559d0c4d7af9e587870325ef78d79d3410460fa&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+    </div>
+
+
     <div class="unit_container contact">
       <div class="pic_left_1"></div>
       <div class="pic_right_1"></div>
@@ -564,6 +570,7 @@
     id="gsap-animation-js-js"></script> -->
     <script src="./js/slick.js"></script>
   <script src="./js/main.js"></script>
+ 
 </body>
 
 </html>

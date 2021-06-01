@@ -16,6 +16,13 @@
               slidesToShow: 2,
               slidesToScroll: 1
             }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
           }
         ]
       });
@@ -72,4 +79,29 @@
       }, 500);
     });
     //>>
+
+    var options = {
+      rootMargin: '0px',
+      threshold: 1.0
+    }
+    
+    function callback(entries, observer) { 
+      entries.forEach(entry => {
+        var videoElem = document.querySelector('video');
+        if (! videoElem) {
+          return
+        }
+        if (entry.isIntersecting) {
+          videoElem.play();
+        }
+        else {
+          videoElem.pause();
+        }
+      });
+    };
+    
+    var elementToObserve = document.querySelector('#video_wrapper');
+    var observer = new IntersectionObserver(callback, options);
+    
+    observer.observe(elementToObserve);
     }(jQuery) );
