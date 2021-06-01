@@ -751,7 +751,7 @@ html {
 .multiple-items div.slide_block {
   min-height: 46vw;
   background-image: url(../img/carusel_page-03_g-min.png);
-  background-size: contain;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   font-family: "KyivType-Serif", serif;
   color: #f48914;
