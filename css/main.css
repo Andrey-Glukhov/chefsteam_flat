@@ -339,6 +339,7 @@ html {
   }
 }
 
+
 @media only screen and (max-width: 1660px) {
   .subheader{
     font-size: 2.4rem;
@@ -361,8 +362,7 @@ html {
     font-size: 8rem;
     line-height: 8rem;
   }
-  .subheader,
-  .slider_wrapper h2 {
+  .subheader{
     font-size: 2.1rem;
     line-height: 2.8rem;
   }
@@ -743,16 +743,50 @@ html {
   font-family: "KyivType-Titling", serif;
   color: #1d2c77;
   text-transform: uppercase;
-  font-size: 3.2rem;
-  line-height: 4.5rem;
+  font-size: 5rem;
+  line-height: 5.9rem;
   margin: 0 0 40px 0;
   text-align: center;
+}
+.multiple-items div.slide_block {
+  min-height: 46vw;
+  background-image: url(../img/carusel_page-03_g-min.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "KyivType-Serif", serif;
+  color: #f48914;
+  font-size: 2.2rem;
+  line-height: 3.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+.slide_text {
+  padding: 42% 80px;
+}
+@media only screen and (min-width: 2145px) {
+  .slide_text {
+    padding: 42% 170px 42% 150px;
+  }
+}
+
+@media only screen and (max-width: 1825px) {
+  .slider_wrapper h2 {
+    font-size: 4.5rem;
+    line-height: 5.4rem;
+  }
+  .slide_text {
+    padding: 42% 96px 42% 85px;
+}
 }
 
 @media only screen and (max-width: 1660px) {
   .slider_wrapper h2 {
     font-size: 3.2rem;
     line-height: 3.9rem;
+  }
+  .multiple-items div.slide_block{
+    font-size: 1.9rem;
+    line-height: 3rem;
   }
 }
 
@@ -761,26 +795,31 @@ html {
     font-size: 3.2rem;
     line-height: 3.9rem;
   }
+  .slide_text {
+    padding: 39% 76px 42% 66px;
+}
+.multiple-items div.slide_block{
+  font-size: 1.7rem;
+  line-height: 3rem;
+}
+}
+@media only screen and (max-width: 900px) {
+  .slider_wrapper h2 {
+    font-size: 2.6rem;
+    line-height: 3.5rem;
+}
+}
+@media only screen and (max-width: 767px) {
+  .slider_wrapper h2 {
+    font-size: 2.6rem;
+    line-height: 3.5rem;
+}
 }
 
 
 /*slide-two-end*/
 
-.multiple-items div.slide_block {
-  min-height: 46vw;
-  background-image: url(../img/carusel_page-03_g-min.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  font-family: "KyivType-Serif", serif;
-  color: #f48914;
-  font-size: 1.5rem;
-  line-height: 2.3rem;
-  font-weight: bold;
-  text-align: center;
-}
-.slide_text {
-  padding: 42% 80px;
-}
+
 
 .table {
   background-color: #1d2c77;
