@@ -2,6 +2,7 @@
    //var controller = new ScrollMagic.Controller();
     // slider  init
      $('.multiple-items').slick({
+        lazyLoad: 'ondemand',
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -26,7 +27,32 @@
           }
         ]
       });
-    
+      $('.speakers-items').slick({
+        lazyLoad: 'ondemand',
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        //adaptiveHeight: true,
+        // responsive: [
+        //   {
+        //     breakpoint: 1024,
+        //     settings: {
+        //       slidesToShow: 2,
+        //       slidesToScroll: 1
+        //     }
+        //   },
+        //   {
+        //     breakpoint: 768,
+        //     settings: {
+        //       slidesToShow: 1,
+        //       slidesToScroll: 1
+        //     }
+        //   }
+        // ]
+      });
       //<< Scroll animations
     //   var scene = new ScrollMagic.Scene({
     //     triggerElement: '.unit_container.contact',
