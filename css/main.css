@@ -1555,6 +1555,41 @@ img.half-width {
   background-image: url(../img/minus.svg);
 }
 
+.location {
+  background-color: #1d2c77;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: 1fr 5fr 3fr;
+}
+.map_wrapper {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+}
+.location_heading {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  color: #fedd43;
+  font-family: "KyivType-Serif", serif;
+  color: #fedd43;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  text-align: center;
+}
+
+.location_heading h2 {
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+}
+
+.location_heading p {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+
 .contact {
   /* background-color: #1d2c77; */
   background-image: url(../img/contact_form-02-min.png);
@@ -1696,11 +1731,7 @@ img.half-width {
   height: 30vw;
 }
 
-.location {
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-}
+
 
 @media only screen and (max-width: 992px) {
   .wpcf7-form textarea,
