@@ -326,6 +326,15 @@ html {
 .date_wrapper h2 {
   margin: 0 20px !important;
 }
+@media only screen and (min-width: 1825px) {
+  .button_programm, .button_part, .button_download {
+    border-radius: 40px;
+    padding: 13px 26px;
+    font-size: 1.9rem;
+    line-height: 2.6rem;
+    min-width: 330px;
+}
+}
 
 @media only screen and (max-width: 1825px) {
   .subheader {
@@ -336,6 +345,13 @@ html {
     font-size: 4.4rem;
     line-height: 5rem;
   }
+  .button_programm, .button_part, .button_download {
+    border-radius: 29px;
+    padding: 12px 25px;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    min-width: 280px;
+}
 }
 
 @media only screen and (max-width: 1660px) {
@@ -352,6 +368,13 @@ html {
     font-size: 3.9rem;
     line-height: 4rem;
   }
+  .button_programm, .button_part, .button_download {
+    border-radius: 29px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    min-width: 250px;
+}
 }
 
 @media only screen and (max-width: 1400px) {
@@ -368,6 +391,13 @@ html {
     font-size: 3.2rem;
     line-height: 4rem;
   }
+  .button_programm, .button_part, .button_download {
+    border-radius: 29px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    min-width: 220px;
+}
 }
 @media only screen and (max-width: 1200px) {
   .header_up,
@@ -897,17 +927,20 @@ html {
   min-height: 100vh;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(19, 1fr);
+  grid-template-rows: repeat(18, 1fr);
 }
 .photoshoot{
-  grid-column: 3/11;
-  grid-row: 1/20;
-  background-image: url(../img/studio-06-min.png);
+  grid-column: 4/10;
+  grid-row: 1/19;
+  /* background-image: url(../img/studio-06-min.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: top center; */
 }
-
+.photoshoot img{
+  width: 100%;
+  height: auto;
+}
 .photo-back{
   grid-column: 1/13;
   grid-row: 1/20;
@@ -918,7 +951,7 @@ html {
 }
 .studio_light{
   grid-column: 11/13;
-  grid-row: 1/20;
+  grid-row: 1/19;
   background-image: url(../img/studio_light.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -926,7 +959,7 @@ html {
 }
 .studio_camera{
   grid-column: 1/3;
-  grid-row: 1/20;
+  grid-row: 1/19;
   background-image: url(../img/studio_camera.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -946,7 +979,7 @@ html {
   grid-column: 4/10;
   grid-row: 1/3;
 }
-.activity_list_one{
+/* .activity_list_one{
   grid-row: 3/4;
 }
 .activity_list_two{
@@ -991,12 +1024,40 @@ html {
 .activity_list_six>p,
 .activity_list_seven>p{
 margin: 10px 0;
+} */
+.program_button{
+  grid-column: 4/10;
+  grid-row: 16/18;
+  background-color: #fedd43;
+  color: #1d2c77;
+  border: none;
+  cursor: pointer;
+  padding: 10px 17px;
+  border-radius: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto auto;
+  text-align: center;
+}
+.program_button a{
+  font-family: "KyivType-Titling", serif;
+  color: #1d2c77;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+
 }
 
 /*slide-three-end*/
+
 .speakers {
   min-height: 80vh;
   overflow: hidden;
+  background-image: url(../img/lamps_back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
 }
 .speakers-items { 
 
@@ -1007,6 +1068,16 @@ margin: 10px 0;
 .speaker_block img {
   width: 30vw;
   height: auto;
+}
+.speakers_reansition{
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  background-image: url(../img/studio_bottom.png);
+  background-size: auto 50%;
+  background-repeat: no-repeat;
+  margin-top: -5px;
+  z-index: 100;
 }
 
 .table {
@@ -1055,6 +1126,63 @@ margin: 10px 0;
   grid-row: 3/4;
 }
 
+@media only screen and (min-width: 1825px) {
+  .program_button,
+  .program_button a{
+    border-radius: 40px;
+    padding: 13px 26px;
+    font-size: 1.9rem;
+    line-height: 2.6rem;
+    min-width: 330px;
+}
+}
+@media only screen and (max-width: 1825px) {
+  .program_button,
+  .program_button a{
+    border-radius: 29px;
+    padding: 12px 25px;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+}
+}
+@media only screen and (max-width: 1660px) {
+  .program_button,
+  .program_button a{
+    border-radius: 29px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    min-width: 250px;
+}
+}
+@media only screen and (max-width: 1400px) {
+  .program_button,
+  .program_button a{
+    border-radius: 29px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    min-width: 220px;
+}
+}
+@media only screen and (max-width: 800px) {
+  .program_button a{
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+.photoshoot {
+  grid-column: 3/11;
+  grid-row: 1/19;
+}
+.studio_camera {
+  grid-column: 1/4;
+}
+.studio_light {
+  grid-column: 10/13;
+  background-size: 85% 100%;
+}
+}
+
 @media only screen and (max-width: 768px) {
   .table {
     grid-template-columns: repeat(12, 1fr);
@@ -1081,6 +1209,19 @@ margin: 10px 0;
     grid-row: 4/5;
   }
 }
+@media only screen and (max-width: 670px){
+  .program_button a{
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+}
+.photoshoot {
+  grid-column: 2/12;
+  grid-row: 1/19;
+}
+.studio_light{
+display: none;
+}
+}
 
 @media only screen and (max-width: 576px) {
   .table_header h2 {
@@ -1092,8 +1233,21 @@ margin: 10px 0;
     line-height: 1.2rem;
   }
 }
+@media only screen and (max-width: 500px) {
+  .photoshoot {
+    grid-column: 1/13;
+    grid-row: 1/19;
+}
+.studio_camera {
+  grid-column: 1/5;
+}
+.program_button {
+  grid-column: 1/13;
+  min-width: 185px;
+}
+}
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
   .table_header h2 {
     font-size: 1.6rem;
     line-height: 1.6rem;
@@ -1102,6 +1256,13 @@ margin: 10px 0;
     font-size: 1rem;
     line-height: 1rem;
   }
+  .program_button a{
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+}
+.program_button {
+  min-width: 140px;
+}
 }
 
 .tvset {
@@ -1207,6 +1368,7 @@ margin: 10px 0;
     line-height: 1.2rem;
   }
 }
+
 
 @media only screen and (max-width: 576px) {
   .result_header {
