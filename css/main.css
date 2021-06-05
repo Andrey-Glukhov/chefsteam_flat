@@ -1398,6 +1398,7 @@ margin: 10px 0;
 .tvset_pic_tv {
   grid-row: 2/3;
   grid-column: 2/3;
+  position: relative;
 }
 .tvset_pic_lamp {
   background-image: url(../img/lamp_right.png);
@@ -1409,6 +1410,16 @@ margin: 10px 0;
   width: 22vw;
   height: 26vw;
   z-index:100;
+}
+.vid_button {
+  position: absolute;
+  left: 58%;
+  top: 50%;
+  background-image: url(../img/btn.svg);
+  background-size: cover;
+  width: 7vw;
+  height: 7vw;
+  transform: translateY(-50%);
 }
 
 .result {
