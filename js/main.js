@@ -6,7 +6,7 @@
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     arrows: false,
     //adaptiveHeight: true,
@@ -32,7 +32,7 @@
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     arrows: false,
     adaptiveHeight: true,
@@ -149,37 +149,39 @@
     });
   }
   //Togge video
-  downButton = document.querySelector("#rect851");
-  if (downButton) {
-    downButton.addEventListener("click", function () {
-     var videoElem = document.querySelector("video");
-      if (!videoElem) {
-        return;
-      }
-      if (videoElem.paused) {
-        videoElem.play();
-      } else {
-        videoElem.pause();
-      }
-    });
-  }
-  var videoObj = document.querySelector("video");
-  videoObj.addEventListener(
-    "play",
-    function () {
-      //playBtn.innerText = "Pause";
-      document.querySelector("#rect851").style.fill='#f42126';
-    },
-    false
-  );
-  videoObj.addEventListener(
-    "pause",
-    function () {
-      //playBtn.innerText = "Play"; fdd4a9
-      document.querySelector("#rect851").style.fill='#fdd4a9';
-    },
-    false
-  );
+  // downButton = document.querySelector("#rect851");
+  // if (downButton) {
+  //   downButton.addEventListener("click", function () {
+  //    var videoElem = document.querySelector("video");
+  //     if (!videoElem) {
+  //       return;
+  //     }
+  //     if (videoElem.paused) {
+  //       videoElem.play();
+  //     } else {
+  //       videoElem.pause();
+  //     }
+  //   });
+  // }
+  // var videoObj = document.querySelector("video");
+  // videoObj.addEventListener(
+  //   "play",
+  //   function () {
+  //     //playBtn.innerText = "Pause";
+  //     document.querySelector("#rect851").style.fill='#f42126';
+  //   },
+  //   false
+  // );
+  // videoObj.addEventListener(
+  //   "pause",
+  //   function () {
+  //     //playBtn.innerText = "Play"; fdd4a9
+  //     document.querySelector("#rect851").style.fill='#fdd4a9';
+  //   },
+  //   false
+  // );
+
+  //Scroll to with jQery
   // $('a[href*="#"]')
   // // Remove links that don't actually link to anything
   // .not('[href="#"]')
@@ -215,4 +217,71 @@
   //     }
   //   }
   // });
+  setupControl();
 })(jQuery);
+
+function setupControl() {
+  var myVideo = document.querySelector(".embed_video");
+       if (myVideo.canPlayType) {
+          // remove the default buttons 
+          myVideo.removeAttribute("controls");
+          myVideo.addEventListener("ended", endPlayback, false);
+          myVideo.addEventListener("click", pausePlayback, false);
+          var vidButton = document.querySelector('.vid_button');
+          vidButton.addEventListener("click", startPlayback, false);
+
+}
+
+  function startPlayback(e) {
+      var buttonPressed = e.target;
+      var myVideo = buttonPressed.parentElement.firstElementChild.querySelector('.embed_video');
+      myVideo.style.display = 'block';
+      myVideo.play();
+      //buttonPressed.nextElementSibling.style.display = 'block';
+      buttonPressed.style.display = 'none';
+      //buttonPressed.parentElement.lastElementChild.style.display = 'none';
+      //var posterElement = buttonPressed.parentElement.lastElementChild;
+      // gsap.to(posterElement, {
+      //     opacity: 0,
+      //     duration: 1,
+      //     onComplete: function() {
+      //         posterElement.style.display = 'none';
+      //         myVideo.play();
+      //     }
+      // });
+
+  }
+
+  function pausePlayback(e) {
+      var myVideo = e.target;
+      //var myVideo = buttonPressed.parentElement.firstElementChild;
+      myVideo.pause();
+      myVideo.style.display = 'none';
+      var vidButton = document.querySelector('.vid_button');
+      vidButton.style.display = 'block';
+  }
+
+  // function togglePlayback(e) {
+  //     var myVideo = e.target;
+  //     //var myVideo = buttonPressed.parentElement.firstElementChild;
+  //     if (myVideo.paused) {
+  //         myVideo.play();
+  //         myVideo.nextElementSibling.style.display = 'none';
+  //     } else {
+  //         myVideo.pause();
+  //         myVideo.nextElementSibling.style.display = 'block';
+  //     }
+
+
+      // buttonPressed.previousElementSibling.style.display = 'block';
+      // buttonPressed.style.display = 'none';
+  //}
+
+
+  function endPlayback(e) {
+      var myVideo = e.target;
+      myVideo.nextElementSibling.style.display = 'block';
+      myVideo.nextElementSibling.nextElementSibling.style.display = 'none';
+  }
+
+}
