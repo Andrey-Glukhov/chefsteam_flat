@@ -237,24 +237,11 @@ function setupControl() {
       var myVideo = buttonPressed.parentElement.firstElementChild.querySelector('.embed_video');
       myVideo.style.display = 'block';
       myVideo.play();
-      //buttonPressed.nextElementSibling.style.display = 'block';
       buttonPressed.style.display = 'none';
-      //buttonPressed.parentElement.lastElementChild.style.display = 'none';
-      //var posterElement = buttonPressed.parentElement.lastElementChild;
-      // gsap.to(posterElement, {
-      //     opacity: 0,
-      //     duration: 1,
-      //     onComplete: function() {
-      //         posterElement.style.display = 'none';
-      //         myVideo.play();
-      //     }
-      // });
-
   }
 
   function pausePlayback(e) {
       var myVideo = e.target;
-      //var myVideo = buttonPressed.parentElement.firstElementChild;
       myVideo.pause();
       myVideo.style.display = 'none';
       var vidButton = document.querySelector('.vid_button');
