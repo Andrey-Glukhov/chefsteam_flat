@@ -1537,24 +1537,57 @@ margin: 10px 0;
 }
 
 @media only screen and (max-width: 576px) {
+  .result {
+    grid-template-rows: repeat(7, 1fr);
+  }
+  h2.result_header {
+    grid-row: 1/3;
+  }
   .result_subheader {
     font-size: 1.5rem;
     line-height: 1.5rem;
+    grid-row: 6/8;
+  }
+  .result_list {
+    grid-row: 4/6;
+    grid-column: 3/11;
+  }
+  .result_pic_left {
+    grid-row: 3/4;
+    grid-column: 5/9
   }
   .result_list li {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.2rem;
   }
+
 }
 
 @media only screen and (max-width: 320px) {
   .result_subheader {
     font-size: 1.5rem;
     line-height: 1.5rem;
+    grid-row: 6/8;
+    grid-column: 2/12;
   }
   .result_list li {
     font-size: 1.1rem;
     line-height: 1.1rem;
+  }
+  .result {
+    grid-template-rows: repeat(7, 1fr);
+  }
+  h2.result_header {
+    grid-row: 1/3;
+    grid-column: 2/12;
+  }
+  .result_list {
+    grid-row: 4/6;
+    grid-column: 2/12;
+  }
+  .result_pic_left {
+    grid-row: 3/4;
+    grid-column: 5/9
   }
 }
 
@@ -1570,7 +1603,7 @@ margin: 10px 0;
 
 .offer_pic_background {
   /* background-color: #28bbb9; */
-  background-image: url(../img/contact_form-08.png);
+  /* background-image: url(../img/contact_form-08.png); */
   /* background-image: url(../img/iceback_g.svg); */
   background-size: 100% auto;
   -ms-grid-column: 1;
@@ -2019,8 +2052,6 @@ img.half-width {
   color: #fedd43;
   line-height: 2.5rem;
 }
-.question_header {
-}
 #accordion .ui-accordion-header {
   position: relative;
 }
@@ -2039,6 +2070,38 @@ img.half-width {
   background-image: url(../img/minus.svg);
 }
 
+@media only screen and (max-width: 992px) {
+  .question_message {
+    font-size: 1.3rem;
+ } 
+}
+
+@media only screen and (max-width: 768px) {
+   .question_message {
+    font-size: 1.2rem;
+  } 
+}
+@media only screen and (max-width: 576px) {
+  .question_message {
+    font-size: 1.2rem;
+    grid-row: 1/2;
+    grid-column: 2/12;
+  } 
+  .question_wrapper {
+    grid-row: 4/7;
+  }
+  .letter {
+    grid-row: 2/3;
+    grid-column: 5/9;
+  }
+  .question_pic_left {
+    grid-row: 3/4;
+    grid-column: 5/9;
+  }
+  .question {
+   grid-template-rows: repeat(6, 1fr);
+  }
+}
 .location {
   background-image: url(../img/sand_back-05.jpg);
   background-size: cover;
@@ -2076,6 +2139,8 @@ img.half-width {
   font-size: 1.2rem;
   line-height: 1.2rem;
 }
+
+
 
 @media only screen and (min-width: 1600px) {
   .location {
