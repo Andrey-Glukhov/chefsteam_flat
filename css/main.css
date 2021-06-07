@@ -1948,7 +1948,7 @@ img.half-width {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
   z-index: 1;
   display: grid;
@@ -1959,6 +1959,7 @@ img.half-width {
   grid-column: 2/3;
   grid-row: 2/3;
   text-align: center;
+  overflow: hidden;
 }
 .location_heading {
   grid-column: 2/3;
