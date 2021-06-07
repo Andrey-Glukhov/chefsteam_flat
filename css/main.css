@@ -1735,7 +1735,7 @@ height: 100%;
 
 @media only screen and (max-width: 950px) {
   .offer {
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
   }
   .img_first,
   .img_second,
