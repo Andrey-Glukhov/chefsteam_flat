@@ -1554,14 +1554,8 @@ margin: 10px 0;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: repeat(8, 1fr);
-  grid-template-rows: repeat(7, 1fr);
+  grid-template-rows: repeat(12, 1fr);
   min-height: 80vh;
-  background-color: #f48914;
-  /* background-image: url(../img/sand_g_1.svg); */
-  background-image: url(../img/sand_back-05.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
 }
 
 .offer_pic_background {
@@ -1595,11 +1589,11 @@ margin: 10px 0;
   padding: 20px;
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
-  grid-row: 4/6;
+  grid-row: 6/9;
 }
 .offer_pic_background {
   /*background-image: url(../img/format_roof-11.png);*/
-  grid-row: 1/2;
+  grid-row: 1/3;
   grid-column: 1/4;
   background-repeat: no-repeat;
   background-position: top center;
@@ -1611,7 +1605,25 @@ margin: 10px 0;
 }
 .ice_background {
   background-image: url(../img/ice_back.jpg);
-  grid-row: 1/4;
+  grid-row: 1/6;
+  grid-column: 1/4;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.ice_background_one{
+  display:none;
+  background-image: url(../img/ice_back.jpg);
+  grid-row: 1/6;
+  grid-column: 1/4;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.ice_background_two{
+  display:none;
+  background-image: url(../img/ice_back.jpg);
+  grid-row: 1/6;
   grid-column: 1/4;
   background-repeat: no-repeat;
   background-position: top center;
@@ -1620,7 +1632,7 @@ margin: 10px 0;
 .img_first {
   grid-column: 1/2;
   z-index: 3;
-  grid-row: 2/4;
+  grid-row: 3/6;
   margin-top: auto;
 }
 .card_first {
@@ -1628,7 +1640,7 @@ margin: 10px 0;
 }
 .ice_back_first {
   background-image: url(../img/ice_wheel.jpg);
-  grid-row: 4/8;
+  grid-row: 6/13;
   grid-column: 1/2;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -1637,7 +1649,7 @@ margin: 10px 0;
 .img_second {
   grid-column: 2/3;
   z-index: 3;
-  grid-row: 2/4;
+  grid-row: 3/6;
   margin-top: auto;
 }
 .card_second {
@@ -1645,7 +1657,7 @@ margin: 10px 0;
 }
 .ice_back_second {
   background-image: url(../img/ice_wheel.jpg);
-  grid-row: 4/8;
+  grid-row: 6/13;
   grid-column: 2/3;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -1654,7 +1666,7 @@ margin: 10px 0;
 .img_third {
   grid-column: 3/4;
   z-index: 3;
-  grid-row: 2/4;
+  grid-row: 3/6;
   margin-top: auto;
 }
 .card_third {
@@ -1662,7 +1674,7 @@ margin: 10px 0;
 }
 .ice_back_third {
   background-image: url(../img/ice_wheel.jpg);
-  grid-row: 4/8;
+  grid-row: 6/13;
   grid-column: 3/4;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -1677,7 +1689,7 @@ margin: 10px 0;
 .oranle_line_one,
 .oranle_line_two{
   grid-column: 1/2;
-  grid-row: 1/4;
+  grid-row: 2/6;
 }
 .oranle_line_one .inner,
 .oranle_line_three .inner,
@@ -1697,22 +1709,28 @@ height: 100%;
 .oranle_line_three,
 .oranle_line_four{
   grid-column: 2/3;
-  grid-row: 1/4;
+  grid-row: 2/6;
 }
 .oranle_line_five,
 .oranle_line_six{
   grid-column: 3/4;
-  grid-row: 1/4;
+  grid-row: 2/6;
+}
+.inner{
+  background-image:url(../img/ice-line.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 @media only screen and (max-width: 950px) {
   .offer {
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 1fr);
   }
   .img_first,
   .img_second,
   .img_third {
-    grid-row: 2/3;
+    grid-row: 2/4;
   }
   /* .ice_background{
     grid-row: 1/9; 
@@ -1720,12 +1738,15 @@ height: 100%;
   .ice_back_first,
   .ice_back_second,
   .ice_back_third {
-    grid-row: 3/6;
+    grid-row: 4/9;
     background-size: cover;
   }
   .ticket_card {
-    grid-row: 3/5;
+    grid-row: 4/7;
     padding: 20px;
+  }
+  .offer_pic_background{
+    margin-top: 25px;
   }
 }
 
@@ -1736,25 +1757,25 @@ height: 100%;
     grid-column: 3/7;
   }
   .img_first {
-    grid-row: 2/3;
+    grid-row: 2/4;
   }
   .ice_back_first,
   .card_first {
-    grid-row: 3/5;
+    grid-row: 4/6;
   }
   .img_second {
-    grid-row: 5/6;
+    grid-row: 6/8;
   }
   .ice_back_second,
   .card_second {
-    grid-row: 6/8;
+    grid-row: 8/10;
   }
   .img_third {
-    grid-row: 8/9;
+    grid-row: 10/12;
   }
   .ice_back_third,
   .card_third {
-    grid-row: 9/11;
+    grid-row: 12/14;
   }
   .ice_back_first,
   .ice_back_second,
@@ -1764,7 +1785,17 @@ height: 100%;
   }
   .ice_background {
     grid-column: 1/11;
-    grid-row: 1/11;
+    grid-row: 1/4;
+  }
+  .ice_background_one{
+    display: block;
+    grid-row: 6/8;
+    grid-column: 1/11;
+  }
+  .ice_background_two{
+    display: block;
+    grid-row: 10/12;
+    grid-column: 1/11;
   }
   .card_first,
   .card_second,
@@ -1776,8 +1807,73 @@ height: 100%;
   }
   .offer {
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(13, 1fr);
   }
+  .oranle_line_two{
+    grid-column: 8/9;
+    grid-row: 2/4;
+  }
+  .oranle_line_one{
+    grid-row: 2/4;
+  }
+  .oranle_line_three{
+    grid-column: 1/2;
+    grid-row: 6/8;
+}
+.oranle_line_four{
+  grid-column: 8/9;
+  grid-row: 6/8;
+}
+.offer_pic_background {
+  margin-top: 85px;
+}
+.oranle_line_six {
+  grid-column: 8/9;
+  grid-row: 10/12;
+}
+.oranle_line_five{
+  grid-column: 1/2;
+  grid-row: 10/12;
+}
+}
+@media only screen and (max-width: 576px) {
+  .card_first, .card_second, .card_third {
+    grid-column: 1/9;
+}  
+.ice_back_first, .card_first {
+  grid-row: 4/7;
+}
+.img_second {
+  grid-row: 7/9;
+}
+.ice_back_second, .card_second {
+  grid-row: 9/12;
+}
+.ice_background_one {
+  grid-row: 7/9;
+}
+.oranle_line_three, .oranle_line_four {
+  grid-row: 7/9;
+}
+.img_third {
+  grid-row: 12/14;
+}
+.ice_back_third, .card_third {
+  grid-row: 14/17;
+}
+.ice_background_two {
+  grid-row: 12/14;
+}
+.offer {
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+}
+.oranle_line_five {
+  grid-row: 12/14;
+}
+.oranle_line_six {
+  grid-row: 12/14;
+}
 }
 
 .ticket_body i.circle_lt,
