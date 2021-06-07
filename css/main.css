@@ -1442,6 +1442,10 @@ margin: 10px 0;
   grid-column: 2/3;
   position: relative;
 }
+.tvset_pic_tv svg {
+  position: relative;
+  top: 6px;
+}
 .tvset_pic_lamp {
   background-image: url(../img/lamp_right.png);
   background-size: 100%;
@@ -1453,6 +1457,7 @@ margin: 10px 0;
   height: 26vw;
   z-index:100;
 }
+
 .vid_button {
   position: absolute;
   left: 58%;
@@ -1462,6 +1467,11 @@ margin: 10px 0;
   width: 7vw;
   height: 7vw;
   transform: translateY(-50%);
+}
+@media only screen and (max-width: 768px) {
+  .tvset_pic_tv {
+    grid-column: 1/4;
+  }  
 }
 
 .result {
